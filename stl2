@@ -1,0 +1,25 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background ("red");
+
+fill("pink");
+  rect(mouseX,mouseY, 40,60);
+}
+function setup() {
+  createCanvas(600, 600);
+  background("white");
+}
+
+function draw() {
+  stroke("brown");
+  fill("orange");
+
+  // console.log(mouseIsPressed)
+
+  if (mouseIsPressed) {
+    circle(mouseX, mouseY, 75, 75);
+  }
+}
